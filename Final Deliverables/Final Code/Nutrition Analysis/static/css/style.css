@@ -1,6 +1,6 @@
 body{
 	background-image:url(bg.jpg);
-    background-size: 400% auto;
+  background-size: 400% auto;
 	background-repeat: no-repeat;
 	background-position:center;
 	color:#555;
@@ -22,13 +22,8 @@ body{
 }
 
 .parallax {
-  /* The image used */
-     background-image: url("doc.jpg");
-
-  /* Set a specific height */
-  min-height: 750px; 
-
-  /* Create the parallax scrolling effect */
+  background-image: url("doc.jpg");
+  min-height: 750px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -40,12 +35,11 @@ html {
 }
 #section2 {
   height: 500px;
-  background: ;
 }
 div.background {
-  background: url("static/bgg2.jpg");
+  background: url("ibm.jpg");
   min-height: 5px;
- background-attachment: fixed;
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -80,20 +74,24 @@ div.background {
 
 
 #showcase h1{
-    width: 100%;
+  width: 100%;
 	color:#333;
 	font-size:40px;
 	text-align: center;
 	line-height: 1em;
 	padding-top:10px;
+  border: solid 2px #000000;
+  background-color: #FFFFFF;
 }
 #showcase h2{
-    width: 100%;
+  width: 100%;
 	color:#333;
 	font-size:30px;
 	text-align: center;
 	line-height: 1.6em;
 	padding-top:10px;
+  border: solid 2px #000000;
+  background-color: #FFFFFF;
 }
 
 #main{
