@@ -21,7 +21,6 @@ def image1():
     return render_template("image.html")
 
 
-
 @app.route('/predict',methods=['GET', 'POST'])
 def launch():
     if request.method=='POST':
